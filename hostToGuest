@@ -10,3 +10,26 @@ wget -q -O - https://pkg.jenkins.io/debian-stable/jenkins.io.key | sudo apt-key 
 sudo add-apt-repository 'deb https://pkg.jenkins.io/debian-stable binary/'
 sudo apt-get update
 sudo apt-get install jenkins
+
+jenkins on ubuntu + firewall ufw
+https://www.digitalocean.com/community/tutorials/how-to-install-jenkins-on-ubuntu-18-04
+
+openssh on ubuntu
+https://www.cyberciti.biz/faq/ubuntu-linux-install-openssh-server/
+
+To run execute any job in jenkins server you have to 
+give proper path of that executable file in jenkins dashboards
+in execute shell e.g. if file in /var/lib/jenkins then this path should be there with filename
+like /var/lib/jenkins/script.sh
+
+
+sudo su
+passwd  and then set password for root
+
+to set password for jenkins
+su -
+passwd jenkins
+
+ssh-keygen to generate pri- id_rsa key and id_rsa.pub pub key
+when ssh-copy-id username@ip-address it copies pub key in that users .ssh/ path in authorized_key file
+
