@@ -1,2 +1,12 @@
 https://www.techrepublic.com/article/how-to-enable-copy-and-paste-in-virtualbox/
 https://www.centennialsoftwaresolutions.com/post/enable-copy-paste-between-windows-7-and-ubuntu-16-04-3-on-oracle-vm-virtualbox
+
+Install java on ubuntu
+https://linuxize.com/post/install-java-on-ubuntu-20-04/
+
+Jenkins on ubuntu
+
+wget -q -O - https://pkg.jenkins.io/debian-stable/jenkins.io.key | sudo apt-key add -
+sudo add-apt-repository 'deb https://pkg.jenkins.io/debian-stable binary/'
+sudo apt-get update
+sudo apt-get install jenkins
